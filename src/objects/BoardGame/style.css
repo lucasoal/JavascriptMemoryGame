@@ -1,6 +1,13 @@
 .board-game{
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
+    border: 8px solid rgb(213,0,0);
+    border-radius: 20px;
+    background-color:rgb(15,15,15);
+    box-shadow: 0 0 15px rgb(53, 0, 0);
+    box-shadow: 0 0 10px inset rgb(1,1,1);
 }
