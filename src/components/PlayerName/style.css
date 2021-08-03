@@ -1,8 +1,8 @@
 .player-name {
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    margin: 10px;
+    color: white;ar(--color-floral-white);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    /* margin-left: 20px; */
     font-weight: bold;
-    font-size: 20px;
-    margin-left: 20px;
 }

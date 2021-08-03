@@ -4,7 +4,7 @@ function PlayerScore() {
 
     playerScore = "PLayer Score"
 
-    return `
+    return  /*html*/ `
         <section class="player-score">
             ${playerScore}
         </section>
