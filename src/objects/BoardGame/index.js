@@ -1,13 +1,13 @@
 import './style.css';
-import CardGame from "../../components/CardGame";
+import CardFrontBack from '../../components/CardFrontBack';
 
 function BoardGame(amountCards) {
 
     // amountCards é a quantidade de cartas
     // $htmlCardGame retorna a função CardGame que faz aparecer na tela o cartão do jogo
     // $htmlBoardGame retorna o metodo repeat para a função do CardGame
-    const $htmlCardGame = CardGame();
-    const $htmlContent = $htmlCardGame.repeat(amountCards);
+    const $htmlCardFrontBack = CardFrontBack();
+    const $htmlContent = $htmlCardFrontBack.repeat(amountCards);
 
     return  /*html*/ `
     <section class="board-game">
