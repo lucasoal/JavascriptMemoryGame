@@ -1,0 +1,21 @@
+.card-front-back {
+    --width: 100px;
+    --height: 130px;
+    transform-style: preserve-3d;
+    position:relative;
+    /* transform:rotateY(10deg); */
+    transition: transform 400ms ease-in-out;
+}
+
+.card-front-back.-active {
+    transform: rotateY(180deg)
+}
+
+.card-front-back > .front {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-front-back > .back {
+    transform:rotateY(180deg);
+}
