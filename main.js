@@ -1,10 +1,8 @@
-import "./src/styles/settings/colors.css";
 import "./src/styles/generic/reset.css";
 import "./src/styles/elements/base.css";
+import "./src/styles/settings/colors.css";
 import BoardGame from "./src/objects/BoardGame";
-import PlayerName from "./src/components/PlayerName";
 import ScoreBoard from "./src/objects/ScoreBoard";
-import CardFrontBack from "./src/components/CardFrontBack";
 
 /**
  * - A VARIÁVEL $root SELECIONA A DIV ROOT QUE ESTA NO INDEX A PARTIR DO DOM
@@ -15,10 +13,9 @@ import CardFrontBack from "./src/components/CardFrontBack";
 
 const $root = document.querySelector("#root");
 
-$root.insertAdjacentHTML(
-    "beforeend",
+$root.insertAdjacentHTML("beforeend",
     `
         ${ScoreBoard()}
-        ${BoardGame(2)}
-        `);
+        ${BoardGame(3)}
+    `);
 

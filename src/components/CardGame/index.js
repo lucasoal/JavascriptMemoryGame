@@ -1,5 +1,4 @@
 import "./style.css";
-import "./activeIt.js";
 
 function CardGame(icon = "interrogationPoint", alt = "Interrogation point") {
 
