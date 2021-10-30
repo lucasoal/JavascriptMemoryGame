@@ -1,3 +1,3 @@
-https://vitejs.dev/
+# To run the project:
 
-start: npm run dev
+In Terminal, write: ```npm run dev```
